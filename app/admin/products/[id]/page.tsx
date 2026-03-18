@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { useCart } from "@/context/CartContext";
+import { useCart } from "@/app/context/CartContext";
 import api from "@/lib/axios";
 import { Heart, ShoppingBag, ChevronRight, ChevronLeft } from "lucide-react";
 import Image from "next/image";
