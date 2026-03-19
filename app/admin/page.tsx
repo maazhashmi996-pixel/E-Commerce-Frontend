@@ -189,7 +189,6 @@ export default function AdminHome() {
     );
 }
 
-// --- Reusable Components ---
 function StatusCard({ label, status, icon, color, active }: StatusCardProps) {
     return (
         <div className="flex justify-between items-center p-5 bg-[#FAFAFA] rounded-[24px] border border-gray-50 hover:border-black/5 transition-all group">
