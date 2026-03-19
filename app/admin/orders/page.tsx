@@ -13,7 +13,7 @@ export default function AdminOrders() {
 
     const fetchOrders = async () => {
         try {
-            const res = await api.get("/admin/all-orders");
+            const res = await api.get("/orders/all");
             setOrders(res.data);
 
             // Calculate Stats
@@ -92,7 +92,7 @@ export default function AdminOrders() {
                                     <td className="p-5 font-bold text-black">Rs. {order.totalAmount}</td>
                                     <td className="p-5">
                                         <span className={`px-4 py-1.5 rounded-full text-[10px] font-black uppercase ${order.status === 'Delivered' ? 'bg-green-100 text-green-600' :
-                                                order.status === 'Shipped' ? 'bg-blue-100 text-blue-600' : 'bg-orange-100 text-orange-600'
+                                            order.status === 'Shipped' ? 'bg-blue-100 text-blue-600' : 'bg-orange-100 text-orange-600'
                                             }`}>
                                             {order.status}
                                         </span>
