@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import api from "@/lib/axios";
 import Hero from "@/Components/Hero";
 import ProductCard from "@/Components/ProductCard";
+import VIPBiography from "@/Components/VIPBiography";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -59,6 +60,7 @@ export default function Home() {
         </div>
 
       </div>
+      <VIPBiography />
     </main>
   );
 }
