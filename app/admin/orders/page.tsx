@@ -35,7 +35,6 @@ export default function AdminOrders() {
 
     return (
         <div className="min-h-screen bg-[#f8f9fa] p-4 md:p-10">
-            {/* --- Top Stats Card --- */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex items-center justify-between">
                     <div>
