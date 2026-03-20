@@ -16,7 +16,6 @@ export default function AdminOrders() {
             const res = await api.get("/orders/all");
             setOrders(res.data);
 
-            // Calculate Stats
             const revenue = res.data.reduce((acc: number, curr: any) => acc + curr.totalAmount, 0);
             setStats({ totalOrders: res.data.length, totalRevenue: revenue });
         } catch (err) {
