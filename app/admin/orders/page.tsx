@@ -27,7 +27,7 @@ export default function AdminOrders() {
         try {
             await api.put(`/admin/update-order/${orderId}`, { status: newStatus });
             alert("Status Updated! ✅");
-            fetchOrders(); // List refresh karein
+            fetchOrders();
         } catch (err) {
             alert("Update fail hogaya");
         }
