@@ -34,10 +34,8 @@ export default function CategoryPage({ params }: { params: Promise<{ slug: strin
 
     return (
         <div className="min-h-screen bg-[#FDFDFD]">
-            {/* Header Section */}
             <div className="max-w-[1400px] mx-auto px-6 pt-24 pb-12">
 
-                {/* Breadcrumb / Back */}
                 <Link href="/" className="flex items-center gap-2 text-[8px] font-black uppercase tracking-[0.3em] text-gray-400 hover:text-black transition-all mb-6 group w-fit">
                     <ArrowLeft size={10} className="group-hover:-translate-x-1 transition-transform" /> Back to Collections
                 </Link>
