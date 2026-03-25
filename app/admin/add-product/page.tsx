@@ -143,7 +143,7 @@ export default function AddProduct() {
                     </div>
                 </div>
 
-                {/* Right Side */}
+                {/* Right Side hai */}
                 <div className="lg:col-span-4 space-y-8">
                     <div className="bg-white p-8 rounded-[48px] shadow-2xl shadow-gray-100 border border-gray-50">
                         <h3 className="font-black text-[11px] uppercase tracking-[0.2em] text-gray-400 mb-6 flex items-center gap-2">Visual Gallery ({files.length}/5)</h3>
