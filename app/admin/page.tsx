@@ -176,7 +176,7 @@ export default function AdminHome() {
                 </div>
             </div>
 
-            {/* System Health Section */}
+            {/* System Health Section adding */}
             <div className="bg-white p-8 rounded-[45px] border border-gray-100 shadow-sm lg:w-1/3">
                 <h3 className="font-black text-sm uppercase tracking-widest text-black mb-8">System Health</h3>
                 <div className="space-y-3">
